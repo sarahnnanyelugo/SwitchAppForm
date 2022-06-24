@@ -246,7 +246,7 @@ span{
 
 @keyframes slideup {
   from {
-    margin-top: 8%;
+    margin-top: 5%;
   }
 
   to {
@@ -264,11 +264,12 @@ animation-duration: 0.5s;
 
 @keyframes slideupLeft {
   from {
-    margin-top: 15%;
-    margin-left: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
   }
 
   to {
     margin-left: 0%;
   }
 }
+
