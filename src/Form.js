@@ -270,7 +270,7 @@ function Form() {
                   )}
                 </DropDownContainer>
               </div>
-              <Password />
+              {/* <Password /> */}
               <input type="checkbox" />
               <small>
                 {" "}
