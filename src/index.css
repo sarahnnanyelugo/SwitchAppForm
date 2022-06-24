@@ -139,6 +139,8 @@ label:hover{
 body{
        background-image:url('./assets/switch-bg.PNG');
        background-size:cover;
+       background-repeat:no-repeat;
+       /* background-position:center; */
 }
 
   .formbutton2{
@@ -197,18 +199,47 @@ span{
 } */
 
 
-.display-enter, .display-appear {
-  top: var(--menu-starting-top);
-  width: var(--toggler-width);
-  max-height: var(--toggler-height);
-  color: var(--fade-from-color);
-  background-color: var(--toggler-bg-color);
+
+.main{
+  position:relative;
+  	transition: ease 3s !important;
+
 }
-.display-enter-active, .display-appear-active {
-  top: var(--menu-ending-top);
-  width: var(--menu-width);
-  max-height: var(--menu-max-height);
-  color: var(--fade-to-color);
-  background-color: var(--menu-bg-color);
-  transition: all var(--timeout);
+
+.main::before{
+  opacity:0.2;
+  transition:ease 1s !important;
+}
+.slideUp{
+  animation-duration: 1s;
+  animation-name: slideup;
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 8%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+
+
+.bottomRight{
+animation-duration: 1s;
+  animation-name: slideupLeft;
+}
+
+@keyframes slideupLeft {
+  from {
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }

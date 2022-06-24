@@ -123,7 +123,7 @@ function Form() {
           id="accountType"
           style={{ marginTop: "80px" }}
         >
-          <div className="col-md-4">&nbsp;</div>
+          <div className="col-md-5">&nbsp;</div>
 
           <div className="col-md-4">
             <h3>
@@ -227,7 +227,10 @@ function Form() {
               </ul>
             </div>
             <div className="col-md-1">&nbsp;</div>
-            <form onSubmit={handleSubmit(onSubmit)} className="card  col-md-5">
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              className="card bottomRight col-md-5"
+            >
               {" "}
               <h5 className="form-header">Create your Merchant account</h5>
               <div className="naime">
@@ -304,14 +307,8 @@ function Form() {
           style={{ marginTop: "80px" }}
           id="signIn"
         >
-          <div className="col-md-1">&nbsp;</div>
-          <div className="col-md-3">
-            <h6>
-              {" "}
-              <img className=" img-fluid " src={Back} alt="Scholar" />
-              Back
-            </h6>
-          </div>{" "}
+          <div className="col-md-4">&nbsp;</div>
+
           <div className="col-md-4">
             <h3>
               <img className=" img-fluid " src={Logo} alt="Scholar" />
@@ -319,7 +316,7 @@ function Form() {
 
             <form
               onSubmit={handleSubmit(onSubmit)}
-              className="card f-1 col-md-9"
+              className="card f-1 col-md-9 bottomRight"
             >
               <h5>Sign in to your account</h5>
 
@@ -368,11 +365,18 @@ function Form() {
           <div className="col-md-3">
             <h6>
               {" "}
-              <img className=" img-fluid " src={Back} alt="Scholar" />
+              <img
+                className=" img-fluid "
+                src={Back}
+                alt="Scholar"
+                onClick={() => {
+                  handleClick("accountType");
+                }}
+              />
               Back
             </h6>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 slideUp">
             <h3>
               <img className=" img-fluid " src={Logo} alt="Scholar" />
             </h3>
@@ -386,7 +390,7 @@ function Form() {
                 className="form-control"
               />
 
-              <button href="#" className="formbutton">
+              <button href="#" className="formbutton3">
                 Continue
               </button>
               <p>
