@@ -53,6 +53,34 @@ margin-left:60% !important;  }
 .formy{
   margin-top:  90px;
 }
+
+
+.formy   {
+  animation-duration: 1s;
+  animation-name: fadeInOut;
+}
+
+@keyframes slideup {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    margin-left: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
   .formy li{
     margin-top: 19px;
   }

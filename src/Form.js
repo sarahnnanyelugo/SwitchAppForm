@@ -7,13 +7,7 @@ import styled from "styled-components";
 import Password from "./Password";
 import Flag from "./assets/flag.png";
 import Back from "./assets/back.svg";
-import {
-  Transition,
-  CSSTransition,
-  SwitchTransition,
-  TransitionGroup,
-} from "react-transition-group";
-import cx from "classnames";
+
 const Main = styled("div")`
   font-family: sans-serif;
   background: #f0f0f0;
@@ -309,14 +303,14 @@ function Form() {
         >
           <div className="col-md-4">&nbsp;</div>
 
-          <div className="col-md-4">
+          <div className="col-md-4  bottomRight">
             <h3>
               <img className=" img-fluid " src={Logo} alt="Scholar" />
             </h3>
 
             <form
               onSubmit={handleSubmit(onSubmit)}
-              className="card f-1 col-md-9 bottomRight"
+              className="card f-1 col-md-9"
             >
               <h5>Sign in to your account</h5>
 
