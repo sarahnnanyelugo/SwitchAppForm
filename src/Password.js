@@ -1,10 +1,5 @@
 import { useState } from "react/cjs/react.development";
-import IconButton from "@material-ui/core/IconButton";
-import InputLabel from "@material-ui/core/InputLabel";
-import Visibility from "@material-ui/icons/Visibility";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import VisibilityOff from "@material-ui/icons/VisibilityOff";
-import Input from "@material-ui/core/Input";
+
   import Icofont from "react-icofont";
 function ShowAndHidePassword() {
   const [passwordType, setPasswordType] = useState("password");
