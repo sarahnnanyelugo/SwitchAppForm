@@ -260,17 +260,12 @@ const [isRegistrationActive, setIsRegistrationActive] = useState(false);
           </form>
         </div>
       </div>
-
-      {/* <div "col-md-12 flexy main " + (!isSignInActive ? "remove" : "") style={{ marginTop: "80px" }} id="signIn">
-        <div className="col-<div className="col-md-1">&nbsp;</div>
+{/* 
+    <div className="col-md-12 flexy main " + (!isSignInActive ? "remove" : "") style={{ marginTop: "80px" }} id="signIn">
+        <div className="col-md-1">&nbsp;</div>
         <div className="col-md-3">
-          <h6>
-            {" "}
-            <img className=" img-fluid " src={Back} alt="Scholar" />
-            Back
-          </h6>
-        </div>md-4">&nbsp;</div>
-
+         
+</div>
         <div className="col-md-4">
           <h3>
             <img className=" img-fluid " src={Logo} alt="Scholar" />
@@ -296,8 +291,12 @@ const [isRegistrationActive, setIsRegistrationActive] = useState(false);
             </p>
           </form>
         </div>
-      </div>
+      
 
+</div> */}
+
+
+  {/* 
       <div className="col-md-12 flexy " style={{ marginTop: "80px" }}>
 <div className="col-md-1">&nbsp;</div>
         <div className="col-md-3">
