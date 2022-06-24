@@ -23,7 +23,7 @@ function ShowAndHidePassword() {
           onChange={handlePasswordChange}
           value={passwordInput}
           name="password"
-          class="form-control"
+          className="form-control"
           placeholder="Password"
         />
 

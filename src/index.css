@@ -169,7 +169,9 @@ body{
        background-size:cover;
        background-repeat:no-repeat;
        /* background-posi/tion:center; */
-       background-origin: padding-box
+       background-origin: initial;
+       padding-top:20px;
+       padding-bottom:120px;
 }
 
   .formbutton2{
