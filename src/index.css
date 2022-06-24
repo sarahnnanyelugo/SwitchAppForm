@@ -39,6 +39,10 @@ small,a, span{
 .flexyM{
   display:flexy;
 }
+
+  .pass{
+margin-left:60% !important;  }
+
 }
 
 
@@ -50,12 +54,12 @@ small,a, span{
   margin-top:  90px;
 }
   .formy li{
-    margin-top: 39px;
+    margin-top: 19px;
   }
 .formy p{
   color:grey;
         font-family:catamaranR;
-        font-size:16px;
+        font-size:14px;
         margin-left:40px !important;
 }
 .formy img{
@@ -63,15 +67,25 @@ small,a, span{
 }
   input{
     margin:10px;
-    height:45px;
+    height:40px;
     border-radius:5px;
-    border:solid 1px rgb(211, 203, 203);
+    border:solid 1px rgb(232, 226, 226);
     padding:15px;
     font-size:10px;
       color:grey;
 
   }
-  
+  .pass{
+margin-left:60%;  }
+
+
+
+
+
+
+
+
+
   .card{
     border-radius:10px;
     padding:40px 45px;
@@ -89,8 +103,8 @@ label:hover{
 
   .formbutton{
     background-color:rgb(57,154,215);
-    height:45px;
-    border-radius:10px;
+    height:35px;
+    border-radius:7px;
     border:none !important;
     color:white;
     margin-top:40px;
@@ -101,6 +115,27 @@ label:hover{
 
   }
 
+
+
+  .formbutton3{
+    background-color:rgb(57,154,215);
+    height:35px;
+    border-radius:7px;
+    border:none !important;
+    color:white;
+    margin-top:15px;
+    margin-left:5px;
+  }
+
+  .formbutton3:hover{
+        background-color:rgb(30, 107, 155);
+
+  }
+
+
+
+
+
 body{
        background-image:url('./assets/switch-bg.PNG');
        background-size:cover;
@@ -108,8 +143,8 @@ body{
 
   .formbutton2{
     background-color:rgb(57,154,215);
-    height:45px;
-    border-radius:10px;
+    height:35px;
+    border-radius:5px;
     border:none !important;
     color:white;
     margin-top:40px;
@@ -154,14 +189,26 @@ span{
   margin:20px auto 20px 0px;
 }
 
-.remove{
-  display:none !important;
-  /* transition: 0.5s; */
+/* .remove{
+  visibility:hidden !important;
   transition: all .5s ease-in-out;
   transform-origin: left top;
   transform: scaleY(0);
-}
-/* .eye2{
- 
-  color:red;
 } */
+
+
+.display-enter, .display-appear {
+  top: var(--menu-starting-top);
+  width: var(--toggler-width);
+  max-height: var(--toggler-height);
+  color: var(--fade-from-color);
+  background-color: var(--toggler-bg-color);
+}
+.display-enter-active, .display-appear-active {
+  top: var(--menu-ending-top);
+  width: var(--menu-width);
+  max-height: var(--menu-max-height);
+  color: var(--fade-to-color);
+  background-color: var(--menu-bg-color);
+  transition: all var(--timeout);
+}
