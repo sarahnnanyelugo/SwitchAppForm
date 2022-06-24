@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+}
+
+
+
+
+h1, h2{
+    color:red;
+
+}
+.btn{
+        border-radius:5px;
+        cursor: pointer;
+        background-color:pink;
+        color:white;
+        border:solid 1px black;
+        margin: 0 1rem
+    }
+    .btn:hover{
+        
+        background-color:rgb(155, 44, 63);
+        border-color:rgb(223, 81, 104)
+    }
+
+    .btn--alt{
+       background-color:transperent;
+       color: rgb(223, 81, 104)
+    }
+
+    .btn--alt:hover{
+        background-color:grey;
+    }
+
+    .card{
+        width:20rem;
+        border-radius:4px;
+        box-shadow: 0  1px 4px rgba(0, 0, 0, 0.2);
+        background-color:grey;
+        text-align:center;
+    }

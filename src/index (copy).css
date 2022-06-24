@@ -1,0 +1,90 @@
+
+h1{
+  color:blue;
+}
+
+
+
+
+@media only screen and (min-width:600px)  {
+.flexy{
+  display:flexy !important;
+}
+}
+
+
+
+@media only screen and (max-width:620px)  {
+.flexyM{
+  display:flexy;
+}
+}
+
+.flexy{
+  display:flex
+}
+
+.main{
+  padding-top:70px;
+}
+
+.formy{
+  margin-top:  90px;
+}
+  .formy li{
+    margin-top: 39px;
+  }
+
+  .naime{
+    display:flex
+  }
+
+  input{
+    margin:10px;
+    height:40px;
+    border-radius:5px;
+    border:solid 1px rgb(211, 203, 203);
+    padding:10px;
+    font-size:10px;
+      color:grey;
+
+  }
+
+  .card{
+    border-radius:7px;
+    padding:40px 30px;
+  }
+
+  .form-header{
+    margin-bottom:20px;
+  }
+
+  .formbutton{
+    background-color:rgb(57,154,215);
+    height:40px;
+    border-radius:5px;
+    border:none !important;
+    color:white;
+    margin-top:40px;
+  }
+
+  .formbutton:hover{
+        background-color:rgb(30, 107, 155);
+
+  }
+
+  label{
+font-size:11px  }
+
+.card p{
+  margin-top:15px;
+  font-size:10px;
+}
+input:checkbox{
+margin-top:140px !important;
+}
+small{
+  margin-top:-40px !important;
+  font-size:11px;
+  margin-left:40px;
+}

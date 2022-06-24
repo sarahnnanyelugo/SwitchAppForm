@@ -1,0 +1,167 @@
+
+
+@font-face {
+    font-family:catamaran;
+    src: url(./assets/catamaran.bold.ttf);
+}
+
+h2, h3, h4, h5, h6{
+      font-family:catamaran;
+
+}
+
+
+@font-face {
+    font-family:catamaranR;
+    src: url(./assets/catamaran.regular.ttf);
+}
+
+small,a, span{
+      font-family:catamaranR;
+
+}
+
+
+
+ p{
+      font-family:catamaranR;
+
+}
+@media only screen and (min-width:600px)  {
+.flexy{
+  display:flex ;
+}
+}
+
+
+
+@media only screen and (max-width:620px)  {
+.flexyM{
+  display:flexy;
+}
+}
+
+
+.main{
+  padding-top:70px;
+}
+
+.formy{
+  margin-top:  90px;
+}
+  .formy li{
+    margin-top: 39px;
+  }
+.formy p{
+  color:grey;
+        font-family:catamaranR;
+        font-size:16px;
+        margin-left:40px !important;
+}
+.formy img{
+  margin-right:10px;
+}
+  input{
+    margin:10px;
+    height:45px;
+    border-radius:5px;
+    border:solid 1px rgb(211, 203, 203);
+    padding:15px;
+    font-size:10px;
+      color:grey;
+
+  }
+  
+  .card{
+    border-radius:10px;
+    padding:40px 45px;
+  }
+label{
+  color:#1899D7;
+
+}
+label:hover{
+  color:black
+}
+  .form-header{
+    margin-bottom:20px;
+  }
+
+  .formbutton{
+    background-color:rgb(57,154,215);
+    height:45px;
+    border-radius:10px;
+    border:none !important;
+    color:white;
+    margin-top:40px;
+  }
+
+  .formbutton:hover{
+        background-color:rgb(30, 107, 155);
+
+  }
+
+body{
+       background-image:url('./assets/switch-bg.PNG');
+       background-size:cover;
+}
+
+  .formbutton2{
+    background-color:rgb(57,154,215);
+    height:45px;
+    border-radius:10px;
+    border:none !important;
+    color:white;
+    margin-top:40px;
+        width:40%;
+
+  }
+
+  .formbutton2:hover{
+        background-color:rgb(30, 107, 155);
+
+  }
+
+
+
+  label{
+font-size:11px  }
+
+.card p{
+  margin-top:15px;
+  font-size:10px;
+}
+input:checkbox{
+margin-top:140px !important;
+}
+small{
+  margin-top:-40px !important;
+  font-size:11px;
+  margin-left:40px;
+}
+
+
+span{
+  font-size:13px;
+  color:grey
+}
+.flag{
+  height:15px;
+  margin-right:20px;
+}
+
+.drop{
+  margin:20px auto 20px 0px;
+}
+
+.remove{
+  display:none !important;
+  /* transition: 0.5s; */
+  transition: all .5s ease-in-out;
+  transform-origin: left top;
+  transform: scaleY(0);
+}
+/* .eye2{
+ 
+  color:red;
+} */
