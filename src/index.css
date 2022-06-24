@@ -168,10 +168,9 @@ body{
        background-image:url('./assets/switch-bg.PNG');
        background-size:cover;
        background-repeat:no-repeat;
-       /* background-posi/tion:center; */
-       background-origin: initial;
-       padding-top:20px;
-       padding-bottom:120px;
+      
+       /* padding-top:20px;
+       padding-bottom:120px; */
 }
 
   .formbutton2{
